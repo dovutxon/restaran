@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background: url(./bg-hero.jpg)no-repeat center/cover;
+}
+.black{
+    /* border: 4px dashed rgb(215, 235, 43); */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(7, 7, 78, 0.658);
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: white;
+    align-items: center;
+}
+li:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
+.btm{
+    width:130px;
+    height: 40px;
+    border: 1px solid goldenrod;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 8px;
+}
+nav h1{
+    font-size: 35px;
+    color: goldenrod;
+}
+.conteiner{
+    width: 100%;
+    height: 100%;
+}
+.card{
+width: 50%;
+height: 100%;
+    padding: 0 5%;
+    color: white;
+}
+.card img{          
+width: 600px;
+height: 600px;
+}
+.card img{
+    animation: aylan 10s linear infinite;
+}
+@keyframes aylan{
+    to{
+        transform: rotate(500deg);
+    }
+}
+.idea{
+    display: flex;
+}
+.ter{
+    padding-top: 10% ;
+    padding-left: 5%;
+    color: white;
+}
+.card543 img{
+    /* border: 4px dashed red; */
+    width:800px;
+    height: 600px;
+}
+.card543{
+    /* border: 4px solid red; */
+    display: flex;
+}
+.card657{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(7, 7, 73);
+    color: white;
+}
+.card657 input{
+    width: 300px;
+    height: 50px;
+   
+    margin-left: 30px;
+}
+   .tredin{
+    display: flex;
+    gap: 30px
+    ;
+   }
+.tredi{
+        display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+.tredin input{
+    text-align: center;
+}
+.card657 h1{
+margin-top: 20px;
+margin-left: 30px;
+}
+textarea{
+    width: 400px;
+    height: 150px;
+margin-left: 150px;
+}
+.card657 button{
+    width: 90%;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 0px;
+    background-color: rgb(221, 117, 19);
+    border: 1px solid rgb(221, 117, 19);
+}
+.cart{
+    width: 350px;
+    height: 250px;
+    margin: auto;
+    margin: 50px;
+    /* border-radius: 50%; */
+    border: 1px solid rgb(82, 226, 106);
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+}
+.tred543 {
+        /* border: 2px dashed red; */
+     width: 100%;
+     height: 400px;
+     display: flex;
+     justify-content: center;
+    text-align: center;
+    }
+.cart img{
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5% 5%;
+    margin: auto;
+}
+
+p{
+    padding: 7%;
+}
+.containr{
+    width: 100%;
+    height: 300px; 
+    display: flex;
+}
+.cards{
+    width: 250px;
+    height: 350px;
+    margin: 50px;
+    border: 1px solid red;
+
+}
+.trd{
+     /* border: 2px dashed red; */
+     width: 100%;
+     height: 400px;
+     display: flex;
+     justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    }
+.cards div img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+}
+.text1{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(8, 8, 122);
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    list-style: none;
+    color: #fff;
+    padding: 7%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 350px;
+    height: 450px;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color: aqua;
+}
